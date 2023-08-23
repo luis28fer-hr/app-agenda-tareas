@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    background-color: #F6F3DC;
+}
+body::selection{
+    background-color: #EBD9BB;
+}
+
+h1 {
+    color: #AD936F;
+    font-family: 'Cantarell', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.form-control, .form-select {
+    background-color: #FFFEF9;
+    border: 2px solid #EBD9BB;
+    font-family: 'Cantarell', sans-serif;
+    color: #77664d;
+ 
+}
+
+.form-control:focus{
+    background-color: #FDFEFE;
+}   
+
+.form-control::placeholder{
+    color: #AD936F;
+}
+.form-select{
+    color: #AD936F;
+}
+
+.btn-add{
+    background-color: #AD936F;
+    color: #F6F3DC;
+    font-weight: 400;;
+}
+.btn-add:hover{
+    background-color: #58D68D;
+    color: #F6F3DC;
+}
+
+h2{
+    color: #AD936F;
+    font-family: 'Cantarell', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+.bg-todo{
+    border: 2px solid #AD936F
+}
+.bg-todos{
+    background-color: #F6F3DC;
+    color: #473b2a;
+
+}
+
+h5{
+    color: #473b2a;
+    font-weight: 700;
+}
+
+p{
+    color: #473b2a;
+    font-weight: 400;
+}
+
+.btn-dan{
+    background-color: #AD936F;
+    color: #FFFEF9;
+}
+.btn-dan:hover{
+    background-color: #E74C3C;
+    color: #FFFEF9;
+}
+
+.btn-in{
+    background-color: #AD936F;
+    color: #FFFEF9;
+}
+.btn-in:hover{
+    background-color: #3498DB;
+    color: #FFFEF9;
+}
