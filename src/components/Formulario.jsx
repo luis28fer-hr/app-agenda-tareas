@@ -15,7 +15,7 @@ const Formulario = ({ addTodo }) => {
         e.preventDefault();
         if (!title.trim() || !descripcion.trim()) {
             return Swal.fire({
-                title: "Error!",
+                title: "¡Error!",
                 text: "Título y descripción son obligatorios",
                 icon: "error",
             });
@@ -80,7 +80,7 @@ const Formulario = ({ addTodo }) => {
                 <option value="Pendiente">Pendiente</option>
                 <option value="Compleado">Completado</option>
             </select>
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-add mt-2">
                 Agregar Tarea
             </button>
         </form>
